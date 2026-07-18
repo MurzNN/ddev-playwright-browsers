@@ -1,0 +1,8 @@
+name: playwright
+
+project_files:
+  - config.playwright.yaml
+  - docker-compose.playwright.yaml
+  - web-build/Dockerfile.playwright
+
+ddev_version_constraint: '>= v1.24.10'

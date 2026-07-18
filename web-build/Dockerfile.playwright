@@ -1,0 +1,3 @@
+#ddev-generated
+# This Dockerfile installs Playwright and its browsers into the web container
+RUN npx playwright install-deps
